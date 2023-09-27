@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float val1,val2;
+	cout <<"saisir la premiere valeur : ";
+	cin >>val1;
+	cout <<"saisir la deuxieme valeur : ";
+	cin >> val2;
+	float resultat;
+	resultat= val1+val2;
+	cout<< " voici la somme : " <<resultat <<std::endl;
+
+system("PAUSE");
+
+	return 0;
+
+}
